@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>palindroma - pari/dispari</title>
+</head>
+<body>
+    <main class="bg-info">
+        <div class="container d-flex justify-content-center align-items-center vh-100">
+            <div class="row">
+                <div class="col-12 d-flex flex-column align-items-center mb-5 pb-5">
+                    <h1 class="pb-5 pt-2">Inserisci una parola per vedere se è palindroma</h1>
+                    <div class="text-center fw-bold pb-5">
+                        <p id="result-word"></p>
+                    </div>
+                </div>
+                <div class="col-12 d-flex flex-column align-items-center">
+                    <h1 class="pb-5 pt-2">Minigioco pari e dispari</h1>
+                    <div class="text-center fw-bold pb-5">
+                        <button id="btneven" class="btn bg-dark text-light fw-bold mb-4">Pari</button>
+                        <button id="btnodd" class="btn bg-dark text-light fw-bold mb-4">Diaspari</button>
+                        <p>Inserisci un numero da 1 a 5</p>
+                        <form>
+                            <input class="rounded-pill" type="text" id="user-num">
+                        </form>
+                        <p id="winner"></p>
+                    </div>
+                    <div class="d-flex">
+                        <button id="btnplay" class="btn bg-dark text-light fw-bold me-3">Genera</button>
+                        <button id="btnreset" class="btn bg-red text-light fw-bold">Resetta Pagina</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="js/main.js" ></script>
+</body>
+</html>
